@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sec4fire4"
+    android:background="#9C9697"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="270dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Select Your Choice"
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+
+ <RadioGroup
+     android:id="@+id/radio_group"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content">
+      <RadioButton
+          android:id="@+id/Procedure"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="125dp"
+          android:layout_marginTop="350dp"
+          android:text="ONLINE QUIZ"
+          android:textColor="#000"
+          android:fontFamily="sans-serif-black"
+          android:textSize="16sp"
+          />
+  <RadioButton
+      android:id="@+id/Object"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="125dp"
+      android:layout_marginTop="59dp"
+      android:text="OFFLINE QUIZ"
+      android:fontFamily="sans-serif-black"
+      android:textColor="#000"
+      android:textSize="16sp"
+      />
+     <RadioButton
+         android:id="@+id/leaderboard2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="125dp"
+         android:layout_marginTop="65dp"
+         android:text="LEADER BOARD"
+         android:textColor="#000"
+         android:fontFamily="sans-serif-black"
+
+         android:textSize="16sp"
+
+         />
+
+
+
+ </RadioGroup>
+
+ <Button
+     android:id="@+id/Proceed"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="PROCEED"
+     android:layout_below="@id/radio_group"
+     android:layout_centerHorizontal="true"
+     android:layout_marginTop="55dp"
+
+    android:background="@color/colorPrimary"
+     />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="150dp"
+        android:fontFamily="sans-serif-black"
+        android:text="WELCOME TO"
+        android:textColor="#000"
+        android:textSize="24sp" />
+     <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="150dp"
+
+        android:text="CODE QUIZ"
+        android:fontFamily="sans-serif-black"
+        android:textColor="#fff"
+
+        android:textSize="24sp"/>
+
+
+
+
+
+</RelativeLayout>

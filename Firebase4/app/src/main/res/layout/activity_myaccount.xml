@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".myaccount"
+   android:background="#3D3C3C"
+    >
+<ImageView
+    android:layout_width="150dp"
+    android:layout_height="85dp"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="95dp"
+    android:src="@mipmap/customer"
+    />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MY ACCOUNT"
+      android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        android:fontFamily="sans-serif-condensed-medium"
+        />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Name : "
+    android:layout_marginTop="200dp"
+    android:layout_marginLeft="120dp"
+    android:textColor="#fff"
+    android:textSize="18sp"
+    android:fontFamily="sans-serif-condensed-medium"
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:textSize="18sp"
+        android:text="gmail id : "
+        android:layout_marginLeft="104dp"
+        android:textColor="#fff"
+        android:fontFamily="sans-serif-condensed-medium"
+        />
+    <TextView
+        android:id="@+id/name_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_marginLeft="205dp"
+        android:layout_marginTop="200dp"
+        android:textSize="18sp"
+        android:textColor="#ffff"
+       android:fontFamily="sans-serif-condensed-medium"
+        />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="College : "
+    android:textColor="#fff"
+    android:layout_marginTop="300dp"
+    android:layout_marginLeft="108dp"
+    android:fontFamily="sans-serif-condensed-medium"
+    android:textSize="18sp"
+    />
+    <TextView
+        android:id="@+id/mail_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+       android:layout_marginLeft="205dp"
+        android:layout_marginTop="250dp"
+       android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="#ffff"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/college_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" ----------"
+        android:layout_marginLeft="205dp"
+        android:layout_marginTop="300dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="#ffff"
+        android:textSize="18sp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#fff"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="110dp"
+        android:text="Branch : "
+        android:fontFamily="sans-serif-condensed-medium"
+
+        />
+    <TextView
+        android:id="@+id/branch_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  ----------"
+        android:layout_marginLeft="205dp"
+        android:layout_marginTop="350dp"
+        android:textColor="#ffff"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="18sp"
+        />
+<TextView
+    android:id="@+id/previous_score"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="  ---------"
+    android:layout_marginTop="400dp"
+    android:layout_marginLeft="205dp"
+    android:textSize="20sp"
+    android:fontFamily="sans-serif-condensed-medium"
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="54dp"
+        android:layout_marginTop="400dp"
+        android:text="Previous Score : "
+        android:textColor="#fff"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="18sp"
+        />
+
+
+</RelativeLayout>

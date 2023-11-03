@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sec2fire4"
+    android:background="#575656"
+    >
+
+               <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AUTHENTICATION"
+                android:textSize="22sp"
+              android:layout_marginTop="125dp"
+               android:layout_centerHorizontal="true"
+               android:textColor="#ffff"
+  android:fontFamily="sans-serif-condensed-medium"
+                />
+
+           <ProgressBar
+               android:id="@+id/progressbar"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_below="@id/submit"
+               android:layout_marginTop="75dp"
+               android:layout_marginLeft="180dp"
+               android:progressDrawable="@drawable/circularbar"
+                android:visibility="invisible"
+                android:indeterminateTint="#ffff"
+               />
+
+
+
+        <Button
+            android:id="@+id/quiz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="LOGIN"
+            android:layout_marginTop="520dp"
+            android:layout_marginLeft="240dp"
+              android:background="@color/colorPrimary"
+              android:textColor="#000"
+            android:fontFamily="sans-serif-condensed-medium"
+            />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+           android:drawableStart="@drawable/ic_mail_outline_black1_24dp"
+            android:drawablePadding="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="385dp"
+            android:hint="Username"
+            android:inputType="text"
+            android:textColorHint="#E0DDDD"
+            android:fontFamily="sans-serif-condensed-medium"
+            />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_centerHorizontal="true"
+            android:hint="Password"
+            android:drawableStart="@drawable/ic_vpn_key_black_24dp"
+            android:drawablePadding="10dp"
+            android:layout_marginTop="450dp"
+            android:inputType="textPassword"
+            android:textColorHint="#E0DDDD"
+            android:fontFamily="sans-serif-condensed-medium"
+            />
+
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="200dp"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/suit"
+
+            />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        android:layout_marginTop="520dp"
+        android:layout_marginLeft="75dp"
+        android:background="@color/colorPrimary"
+        android:textColor="#000"
+        android:fontFamily="sans-serif-condensed-medium"
+        />
+<TextView
+    android:id="@+id/wait"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+   android:layout_marginLeft="155dp"
+    android:text="Please wait..."
+     android:layout_marginTop="600dp"
+    android:textSize="18dp"
+    android:visibility="invisible"
+    android:textColor="#fff"
+
+    />
+
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.firebase4">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/deepco"
+        android:label="Code Quiz"
+        android:roundIcon="@mipmap/deepco"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".feedback"></activity>
+        <activity android:name=".edit" />
+        <activity android:name=".myaccount" />
+        <activity
+            android:name=".nav_bar"
+            android:label="@string/title_activity_nav_bar"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".leaderboard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".thirdresult"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".third4fire4"
+            android:screenOrientation="portrait" />
+        <activity android:name=".third3fire4" />
+        <activity android:name=".thrid2fire4" />
+        <activity android:name=".third1fire4" />
+        <activity android:name=".sec9fire4" />
+        <activity
+            android:name=".sec8fire4"
+            android:screenOrientation="portrait" />
+        <activity android:name=".sec7fire4" />
+        <activity android:name=".sec6fire4" />
+        <activity android:name=".sec5fire4" />
+        <activity
+            android:name=".sec4fire4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".sec3fire4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".sec2fire4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

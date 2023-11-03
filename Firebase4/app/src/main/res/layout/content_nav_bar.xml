@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".nav_bar"
+    tools:showIn="@layout/app_bar_nav_bar"
+    >
+
+    <Button
+        android:id="@+id/online_quiz"
+        android:layout_width="250dp"
+        android:layout_height="84dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="ONLINE QUIZ"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="145dp"
+        />
+
+    <Button
+        android:id="@+id/leaderboardgen"
+        android:layout_width="250dp"
+        android:layout_height="84dp"
+        android:height="84dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="LEADER BOARD"
+        android:layout_marginTop="455dp"
+        android:layout_centerHorizontal="true"
+         />
+
+    <Button
+        android:id="@+id/offline_quiz"
+        android:layout_width="250dp"
+        android:layout_height="84dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="OFFLINE QUIZ"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="300dp"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="58dp"
+        android:text="WELCOME TO CODE QUIZ"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        />
+</RelativeLayout>

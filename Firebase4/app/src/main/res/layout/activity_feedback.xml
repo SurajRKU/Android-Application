@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".feedback"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FEEDBACK FORM"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="25sp"
+        android:textColor="#fff"
+        android:layout_marginTop="85dp"
+       android:layout_centerHorizontal="true"
+        />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#fff"
+    android:text="Did you like Code Quiz?"
+    android:textSize="22sp"
+    android:fontFamily="sans-serif-condensed-medium"
+    android:layout_marginTop="200dp"
+    android:layout_marginLeft="60dp"
+
+
+
+    />
+    <EditText
+        android:id="@+id/feed_q1"
+        android:layout_width="285dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:inputType="text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:background="#EBEAEA"
+    android:hint="Yes or No"
+        android:paddingLeft="20dp"
+        />
+
+
+        />
+    <EditText
+        android:id="@+id/feed_q2"
+        android:layout_width="285dp"
+        android:layout_height="75dp"
+        android:ems="10"
+        android:textColor="#000"
+
+        android:textColorHint="#000"
+        android:inputType="text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="380dp"
+        android:background="#EBEAEA"
+         android:paddingLeft="20dp"
+        android:hint="80 - 100 words"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:text="What is your opinion about                  Code Quiz?"
+        android:textSize="22sp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="60dp"
+        android:hint="Yes or No"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:text="What further improvements can            be made to Code Quiz?"
+        android:textSize="22sp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:layout_marginTop="470dp"
+        android:layout_marginLeft="60dp"
+        android:hint="Yes or No"
+        />
+    <EditText
+        android:id="@+id/feed_q3"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:layout_width="285dp"
+        android:layout_height="75dp"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="530dp"
+        android:background="#EBEAEA"
+        android:paddingLeft="20dp"
+        android:hint="80 - 100 words"
+        />
+
+    <Button
+        android:id="@+id/submit_feed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:background="@color/colorPrimaryDark"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="635dp"
+        />
+</RelativeLayout>

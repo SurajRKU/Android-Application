@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".edit">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:text="EDIT DETAILS"
+    android:fontFamily="sans-serif-condensed-medium"
+    android:textSize="25sp"
+    android:textColor="#fff"
+    android:layout_marginTop="75dp"
+    />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Edit Name"
+    android:layout_marginTop="200dp"
+    android:textSize="20sp"
+    android:textColor="#fff"
+    android:layout_marginLeft="52dp"
+   android:hint="NAME"
+    android:fontFamily="sans-serif-condensed-medium"
+    />
+    <EditText
+        android:id="@+id/name_edit"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="250dp"
+        android:background="#EBEAEA"
+        android:layout_centerHorizontal="true"
+        android:inputType="text"
+       android:textColor="#000"
+        android:paddingLeft="20dp"
+        android:textColorHint="#000"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit College details"
+        android:layout_marginTop="350dp"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:layout_marginLeft="52dp"
+        android:hint="College Name"
+        android:fontFamily="sans-serif-condensed-medium"
+        />
+    <EditText
+        android:id="@+id/college_edit"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="400dp"
+        android:background="#EBEAEA"
+        android:layout_centerHorizontal="true"
+        android:inputType="text"
+        android:textColor="#000"
+      android:paddingLeft="20dp"
+        android:textColorHint="#000"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Branch details"
+        android:layout_marginTop="500dp"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:layout_marginLeft="52dp"
+        android:hint="Branch"
+        android:fontFamily="sans-serif-condensed-medium"
+        />
+    <EditText
+        android:id="@+id/branch_edit"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="550dp"
+        android:background="#EBEAEA"
+        android:layout_centerHorizontal="true"
+        android:inputType="text"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:paddingLeft="20dp"
+        />
+
+    <Button
+        android:id="@+id/submit_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginTop="650dp"
+        />
+</RelativeLayout>

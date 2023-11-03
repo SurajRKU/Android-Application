@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sec8fire4"
+
+    >
+
+    <TextView
+        android:id="@+id/card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SCORE CARD"
+        android:textSize="35sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="#ffff"
+        />
+    <TextView
+        android:id="@+id/basic1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LEVEL: BASIC"
+        android:textSize="20sp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="195dp"
+        android:textColor="#ffff"
+        android:fontFamily="sans-serif-condensed"
+        />
+    <TextView
+        android:id="@+id/expert1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LEVEL: EXPERT"
+        android:textSize="20sp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="305dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="#ffff"
+        />
+
+    <TextView
+        android:id="@+id/intermediate1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LEVEL: INTERMEDIATE"
+        android:textSize="20sp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="250dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="#ffff"
+        />
+    <TextView
+        android:id="@+id/total1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TOTAL SCORE"
+        android:textSize="20sp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="360dp"
+        android:textColor="#ffff"
+        android:fontFamily="sans-serif-condensed"
+        />
+    <TextView
+        android:id="@+id/basic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="45"
+        android:textSize="20sp"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="195dp"
+        android:textColor="#ffff"
+        />
+    <TextView
+        android:id="@+id/intermediate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="45"
+        android:textSize="20sp"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="250dp"
+        android:textColor="#ffff"
+        />
+    <TextView
+        android:id="@+id/expert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="45"
+        android:textSize="20sp"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="305dp"
+        android:textColor="#ffff"
+        />
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="135"
+        android:textSize="20sp"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="360dp"
+        android:textColor="#ffff"
+        />
+    <TextView
+        android:id="@+id/performance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Performance"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="#ffff"
+        android:layout_marginTop="445dp"
+        android:textSize="25sp"
+        />
+
+    <Button
+        android:id="@+id/thank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QUIT"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="620dp"
+        android:background="@color/colorPrimaryDark"
+
+        />
+    <Button
+        android:id="@+id/menuoff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Main Menu"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginTop="550dp"
+        android:layout_centerHorizontal="true"
+        />
+
+
+</RelativeLayout>
