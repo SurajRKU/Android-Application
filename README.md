@@ -5,6 +5,7 @@ Utilized firebase database to store realtime user data and quiz questions.
 
 ## Database Storage Structure
 
+<img src="https://github.com/SurajRKU/Android-Application/blob/master/Realtime_Database.png" height = "250" width="300"/>      <img src="https://github.com/SurajRKU/Android-Application/blob/master/Realtime_Database_Question.png" height = "250" width="300" />
 
 ## Authentication Page
 <img src="https://github.com/SurajRKU/Android-Application/blob/master/Code_Quiz_Screen.jpeg" height ="650" width="300"  />      <img src="https://github.com/SurajRKU/Android-Application/blob/master/Authentication_Screen.jpeg"  height ="650" width="300" />
