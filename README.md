@@ -3,7 +3,7 @@ This project is an Android Quiz application developed using Java within the Andr
 Employed XML for user interface design and integrated a robust firebase authentication service to streamline user registration and login processes.
 Utilized firebase database to store realtime user data and quiz questions.
 
-## Firebase Structure
+## Firebase Database Structure
 
 <img src="https://github.com/SurajRKU/Android-Application/blob/master/Realtime_Database.png" height = "250" width="400"/>      <img src="https://github.com/SurajRKU/Android-Application/blob/master/Realtime_Database_Question.png" height = "250" width="400" />
 
