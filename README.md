@@ -1,7 +1,14 @@
-# About
-This project is an Android Quiz application developed using Java within the Android Studio IDE. 
-Employed XML for user interface design and integrated a robust firebase authentication service to streamline user registration and login processes.
-Utilized firebase database service to store realtime user data and quiz questions.
+# CodeQuiz
+This project is an Android Quiz application developed using Java within the Android Studio IDE. Employed XML for user interface design and integrated a robust firebase authentication service to streamline user registration and login processes. Utilized firebase database service to store realtime user data and quiz questions.
+
+Key Highlights:<br />
+
+1)Implemented a custom question allotment algorithm, guaranteeing that the users won't encounter repeated questions in subsequent attempts, enhancing the quiz experience.<br />
+2)Designed a scoring system that ranks all the application users based on their latest online quiz performance, adding a competitive edge to the learning process.<br />
+
+
+https://github.com/SurajRKU/Android-Application/assets/53537228/4d3d4a29-7cd0-400a-af9f-8566596cb046
+
 
 ## Firebase Structure
 
