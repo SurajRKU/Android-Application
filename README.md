@@ -4,7 +4,7 @@ Code Quiz is an Android Quiz application developed using Java within the Android
 https://github.com/SurajRKU/Android-Application/assets/53537228/4d3d4a29-7cd0-400a-af9f-8566596cb046
 
 ## Features:
-- **Firebase Authentication** – Implements Firebase authentication service for login and registration using email-password as shown below in figure 1.
+- **Firebase Authentication** – Implements Firebase authentication service for login and registration using email-password.
 - **Smart Question Prioritization** – Implements an adaptive algorithm that categorizes each question by topic (e.g., Arrays, Loops) and tracks user performance. If a 
 user frequently answers questions incorrectly in a specific category, the engine prioritizes more questions from that area in future quizzes. It also ensures no repeated questions in subsequent attempts once correctly answered, creating a personalized and efficient learning path.
 - **Real-Time Leaderboard** – Displays global user's live scores by accessing Firebase Realtime Database.
