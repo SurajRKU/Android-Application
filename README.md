@@ -57,17 +57,36 @@ CodeQuiz/
 
 ## Project Images
 ### Firebase Structure
+The application leverages Firebase Realtime NoSQL Database for seamless data synchronization and real-time updates. The database is structured into three primary nodes:
+
+**Users_database**: Stores comprehensive user profiles, including authentication details, quiz scores, and response history. This node ensures personalized experiences and tracks user progress dynamically.
+
+**Feedback_database**: Collects and organizes user feedback to drive iterative improvements. Insights from this node inform future enhancements, ensuring the app evolves based on user needs.
+
+**Online_questions**: Contains a curated repository of 400–500 questions sourced from external references. This node powers the quiz functionality, providing a diverse and scalable question bank for both online and offline modes.
+
 <img src="https://github.com/SurajRKU/Android-Application/blob/master/Application Images/Realtime_Database.png" height = "250" width="400"/><img src="https://github.com/SurajRKU/Android-Application/blob/master/Application Images/Realtime_Database_Question.png" height = "250" width="400" />
+
 ### Authentication Page
 The Authentication Pages handle all user access workflows of sign up and login.These pages are integrated with Firebase Authentication, allowing secure and scalable identity management without building a backend from scratch.They ensure that only authenticated users can access quiz functionalities and personal data like scores or feedback.
 
 <img src="https://github.com/SurajRKU/Android-Application/blob/master/Application Images/Code_Quiz_Screen.jpeg" height ="650" width="300"  />      <img src="https://github.com/SurajRKU/Android-Application/blob/master/Application Images/Authentication_Screen.jpeg"  height ="650" width="300" />
+
 ### Home Screen and Navigation Page
+The home screen serves as the main dashboard after user login, providing access to both online and offline quiz modes. The online quiz requires an internet connection to retrieve questions from Firebase in real-time, while the offline mode uses locally stored questions for uninterrupted practice. The interface includes quick navigation to account management features, allowing users to view or edit their profile, submit feedback, and logout.
+
 <img src="https://github.com/SurajRKU/Android-Application/blob/master/Application Images/Home_Screen.jpeg" height ="650" width="300"  />      <img src="https://github.com/SurajRKU/Android-Application/blob/master/Application Images/Navigation_Screen.jpeg"  height ="650" width="300" />
-### Profile and Update Page
+
+### Profile and Edit Page
+The My Account section displays the user's profile information such as name, email, institutional details (college and branch), and their previous quiz score obtained upon playing the online version of the quiz. Users can edit their personal details through dedicated edit buttons for each field, allowing for quick updates to name, educational background, and other profile information. 
+
 <img src="https://github.com/SurajRKU/Android-Application/blob/master/Application Images/Account_Details_Screen.jpeg" height ="650" width="300"  />      <img src="https://github.com/SurajRKU/Android-Application/blob/master/Application Images/Edit_Details_Screen.jpeg"  height ="650" width="300" />
+
 ### Quiz and Leaderboard Page
+The quiz presents 3 question sets with 4 options each. Users must complete all questions in a set before advancing. The leaderboard displays the top 20 online quiz scores in descending order, updated in real-time via Firebase. Both online and offline modes share the same clean interface
+
 <img src="https://github.com/SurajRKU/Android-Application/blob/master/Application Images/Question_Page.jpeg" height ="650" width="300"  />      <img src="https://github.com/SurajRKU/Android-Application/blob/master/Application Images/Leaderboard_Screen.jpeg"  height ="650" width="300" />
+
 
 
 
