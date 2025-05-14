@@ -87,9 +87,15 @@ The quiz presents 3 question sets with 4 options each. Users must complete all q
 
 <img src="https://github.com/SurajRKU/Android-Application/blob/master/Application Images/Question_Page.jpeg" height ="650" width="300"  />      <img src="https://github.com/SurajRKU/Android-Application/blob/master/Application Images/Leaderboard_Screen.jpeg"  height ="650" width="300" />
 
-
-
-
+## Execution
+1. How to Install & Run
+    Download the APK:
+    Get the latest ```app.apk``` from Releases.
+2. Install on Android:
+   Enable "Unknown Sources":  Go to Settings → Security → Install unknown apps (allow your file manager/browser).
+3. Open the downloaded APK and tap "Install".
+4. Launch the App
+5. Open CodeQuiz from your app drawer and Sign in or create an account to start quizzing!
 
 
 
