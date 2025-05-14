@@ -92,7 +92,7 @@ The quiz presents 3 question sets with 4 options each. Users must complete all q
     Download the APK:
     Get the latest ```app.apk``` from Releases.
 2. Install on Android:
-   Enable "Unknown Sources":  Go to Settings → Security → Install unknown apps (allow your file manager/browser).
+   Enable  ``` "Unknown Sources":  Go to Settings → Security → Install unknown apps ``` (allow your file manager/browser).
 3. Open the downloaded APK and tap "Install".
 4. Launch the App
 5. Open CodeQuiz from your app drawer and Sign in or create an account to start quizzing!
