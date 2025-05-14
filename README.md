@@ -11,8 +11,10 @@ user frequently answers questions incorrectly in a specific category, the engine
 - **User Feedback Collection** – Stores structured responses to Firebase, enabling sentiment analysis or future enhancement planning.
 
 ## Project Structure
+The CodeQuiz project follows a modular Android architecture. The java/com/example/firebase4/ folder organizes code into Authentication, Model Classes, Offline and Online Quiz Pages for clarity and functionality. Each handles specific logic—auth with Firebase, quiz data models, and quiz modes. Supporting activities like profile edit, feedback, and leaderboard are included. The res/ folder holds XML layouts (grouped similarly), drawable assets, and values like strings, styles, and colors. The AndroidManifest.xml declares app components and permissions. Gradle files manage dependencies and build settings.
+
 <div align="left">
-<img src="https://github.com/SurajRKU/Android-Application/blob/master/Application Images/Project_Structure.png" height="600" width="700" />
+<img src="https://github.com/SurajRKU/Android-Application/blob/master/Application Images/Project_Structure.png" height="700" width="600" />
 </div>
 
 ## Project Images
